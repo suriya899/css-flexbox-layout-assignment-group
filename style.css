@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(
+      to right,
+      #D66D9C,
+      #8B80C4,
+      #3E8ED0
+    );
+  }
+
+.animals-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.animals-card {
+   
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    margin: 70px 30px 30px 30px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 3px;
+
+}
+
+.animals-button,.animals-pricing,.animals-type{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.188);
+    width: 80%;
+    margin: 12px auto;
+}
+
+.animals-type {
+    padding: 50px;
+}
+
+.animals-pricing {
+    padding-bottom: 20px;
+}
+
+button{
+    background-color: #FFF200;
+    border: 2px solid #E5DB00;
+    border-radius: 3px;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 90%;
+    font-weight: bolder;
+  }
+
+.animals-button {
+    padding-bottom: 20px;
+}
+
+
+.animals-card.card-2 {
+    margin-top: 0px;
+}
+
+.animals-card.card-3 {
+    margin-top: 50px;
+}
